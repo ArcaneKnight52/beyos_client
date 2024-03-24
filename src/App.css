@@ -1,0 +1,113 @@
+
+.container {
+  display: flex;
+}
+
+.navbar{ 
+  justify-content: flex-start;
+}
+.container{
+  margin-left:140px;
+  margin-top: 50px;
+}
+.top-right{right: 5rem;
+  justify-content: flex-start;
+
+}
+.top-left{
+  
+  justify-content: flex-start;
+  
+}
+/* Assuming your CSS file is named ViewStationaryCombustion.css */
+
+.top {
+  display: flex;/* Distribute items evenly along the main axis */
+  /* justify-content: space-around;
+  jus */
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row; /* Align items vertically */
+  position:fixed;
+  top:50px;
+  left:0px;
+  width: 100%; /* Ensure it takes up the full width */
+  padding: 0px;
+}
+
+
+.bottom {
+  /* display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 100px;  */
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+/* Style for the top image */
+.top img {
+  width: 50px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100px; /* Adjust the width as needed */
+  background-color: #1e4d5e; /* Set background color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:flex-start; /* Add equal spacing between buttons */
+  gap:18px;
+}
+.space{
+  margin-top: 28px;
+}
+.co2{
+  margin-left: 30px;
+}
+.final{
+  margin-top:-20px;
+}
+.navbar-links {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Add equal spacing between buttons */
+  flex: 1; /* Take up remaining space */
+  width: 100%; /* Ensure full width of the navbar */
+}
+
+.navbar-links a {
+  width: calc(100% - 20px); /* Button covers 66% width with spacing */
+  padding: 10px; /* Adjust padding as needed */
+  text-align: center; /* Center the content horizontally */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.navbar-links img {
+  width: 50px; /* Adjust the image size as needed */
+}
+
+/* Ensure equal spacing between buttons */
+.navbar-links a:not(:last-child) {
+  margin-bottom: 10px; /* Adjust margin for equal spacing */
+}
+
+
+.bottom-left{}
+.bottom-right{}
+
+
+
+
+
+
+
+
